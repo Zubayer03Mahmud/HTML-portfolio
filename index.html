@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zubayer Portfolio</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+  <header>
+     <div id="profile">
+            <img src="/zuba.jpg" alt="profile"width="250" height="300">
+          </div>
+    <h1>Zubayer Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <section id="social-links">
+      <ul>
+        <li><a href="https://github.com/Zubayer03Mahmud" target="_blank">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/zubayer-al-mahmud-328040339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> LinkedIn Profile</a></li>
+      </ul>
+    </section>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+        <section id="about" class="mb-12">
+            <h1 class="text-3xl font-bold mb-4 text-blue-600">About Me</h1>
+            <p class="text-lg leading-relaxed">
+                I am a dedicated 3rd-year Computer Science and Engineering student at Jahangirnagar University, currently in my first semester. With a strong passion for technology, I thrive on exploring innovative solutions through programming and system design. My academic journey has equipped me with a solid foundation in computer science concepts, and I am eager to apply my skills to real-world challenges. I enjoy tackling complex problems through hands-on projects, such as developing database systems, creating computer graphics algorithms, and designing object-oriented software, which fuel my enthusiasm for continuous learning and growth in the tech industry.
+            </p>
+        </section>
+
+   <!-- Skills Section -->
+        <section id="skills" class="mb-12">
+            <h1 class="text-3xl font-bold mb-4 text-blue-600">Skills</h1>
+            <ul class="list-disc pl-6 space-y-2 text-lg">
+                <li><strong>Programming Languages:</strong> C, C++, Java, Python</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JavaScript,React </li>
+                <li><strong>Database Management:</strong> MySQL, SQL.</li>
+                <li><strong>Object-Oriented Analysis and Design:</strong> Experienced in creating UML diagrams, use case designs, and system proposals using tools like Enterprise Architect and StarUML.</li>
+            </ul>
+        </section>
+
+    <!-- Experience Section -->
+        <section id="experience">
+            <h1 class="text-3xl font-bold mb-4 text-blue-600">Experience</h1>
+            <p class="text-lg leading-relaxed mb-4">
+                While I have not yet pursued formal work experience, my academic projects at Jahangirnagar University have honed my technical and collaborative skills. Key projects include:
+            </p>
+            <ul class="list-disc pl-6 space-y-2 text-lg">
+                <li><strong>Database Systems Lab (2nd Year, 2nd Semester):</strong> Designed and implemented an e-commerce database using MySQL, creating tables for Customers, Orders, Products, and OrderItems with proper normalization and foreign key constraints. Authored a 20-page LaTeX-formatted report detailing SQL queries, query optimization techniques, and system design, submitted to faculty.</li>
+                <li><strong>Object-Oriented Analysis and Design Project </strong> Created a detailed proposal for a Psychology Consultant Centre Management System, including functional and non-functional requirements, user stories, and UML diagrams, demonstrating proficiency in OOAD methodologies.</li>
+            </ul>
+            <p class="text-lg leading-relaxed mt-4">
+                These projects have strengthened my ability to work in teams, manage project timelines, and deliver high-quality technical solutions under academic deadlines.
+            </p>
+        </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>YouTube Clone:</h3>
+          <p>A web-based project built with HTML that mimics the layout and basic functionality of YouTube. It showcases skills in web design and user interface development by presenting a simulated version of video browsing and viewing.</p>
+          <a href="https://github.com/Zubayer03Mahmud/Youtube_Clone-/blob/master/youtube.html" target="_blank">View project</a>
+        </div>
+        <div class="project-card">
+          <h3>Hall Service Management System:</h3>
+          <p>Developed in C++, this project streamlines hall service operations. It manages bookings, schedules, and services, enhancing efficiency and user experience for event management.</p>
+          <a href="https://github.com/Zubayer03Mahmud/Hall-Service" target="_blank">View project</a>
+        </div>
+        <div class="project-card">
+          <h3>Snake and Ladder</h3>
+          <p>Another Java project that faithfully recreates the traditional Snake and Ladder game. It features player movement based on dice rolls and implements the game’s logic for snakes and ladders, making it engaging for users.</p>
+          <a href="https://github.com/Zubayer03Mahmud/Snake-Ladder/tree/main/src/main/java/org/example/snakeladder" target="_blank">View project</a>
+        </div>
+        <div class="project-card">
+            <h3>Rock Paper Scissors</h3>
+            <p>Simple rock paper Scissor game using JavaScript</p>
+            <a href="https://github.com/Zubayer03Mahmud/JAVASCRIPT/blob/master/10-rock-paper-scissor.html" target="_blank">View project</a>
+          </div>
+          
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p class="form-header">Feel free to reach out for collaboration or any inquiries!</p>
+      <form action="https://formspree.io/f/meokrjka"
+  method="POST">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" required></textarea>
+<br> <br>
+        <button type="submit">Send Message</button>
+        
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; Zubayer, All Rights Reserved,2025</p>
+  </footer>
+</body>
+</html>
+
+
